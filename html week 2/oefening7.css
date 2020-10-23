@@ -1,0 +1,27 @@
+body{
+    Background-color: #151c28;
+    color: #ffe14f;
+}
+h1 {
+    margin: auto;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 50%;}
+
+img {height: 150px;
+width: 150px;}
+    
+
+.buzzer {
+    width: 500px;
+    border-style: solid;
+    border-color: #ffe14f;
+    border-width : 1px;
+    border-radius: 10px;
+    padding: 5px 100px 5px 10px;
+    margin: 8px auto;
+
+}
+.buzzer:hover{
+    background-color: #8daec6
+}

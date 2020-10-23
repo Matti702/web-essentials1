@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto Light";
+  background-color: darkslateblue;
+  color: white;
+
+}
+h1 {
+  color: orange;
+}
+a {
+  color: white;
+}
+.Button{
+  border: 2px solid grey;
+  padding: 5px;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  color: white;
+}
+a:hover {
+  color: orange;
+  font-size: larger;
+}
+ol {
+  color: white;
+}
+table {
+  border: 1px solid white;
+  border-collapse: collapse;
+
+}
+td, th {
+  border: 1px solid white;
+  padding: 5px;
+}
+tbody tr td:nth-child(1){
+  width: 350px;
+}
+.image-row {
+  width: auto;
+
+}
+
+th {
+  color: white;
+  border-style: solid;
+  border-color: white;
+}
+.pukkelpop {
+  background-color: deepskyblue;
+  border-style: solid;
+  border-width: thin;
+  border-color: orange;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.RockWerchter {
+  background-color: coral;
+  border-style: solid;
+  border-width: thin;
+  border-color: orange;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.Tomorrowland {
+  background-color: mediumpurple;
+  border-style: solid;
+  border-width: thin;
+  border-color: orange;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.Graspop {
+  background-color: lightgreen;
+  border-style: solid;
+  border-width: thin;
+  border-color: orange;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.Dour {
+  background-color: #eae31a;
+  border-style: solid;
+  border-width: thin;
+  border-color: orange;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
