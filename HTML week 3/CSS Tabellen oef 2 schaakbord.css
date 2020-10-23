@@ -1,0 +1,9 @@
+body{
+    background-image: url("../../assets/hout.jpg");
+}
+td {
+    width: 12.5%;
+    height: 12.5%;
+    border: 1px;
+    border-color: #ff0000;
+}

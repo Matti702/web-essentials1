@@ -1,0 +1,25 @@
+
+body{
+    font-family: "Roboto Light";
+}
+table{
+    border: 20px solid;
+    border-collapse: collapse;
+    border-color: #c7ced8;
+}
+thead {
+    background-color: #27426d;
+    color: white;
+}
+tfoot {
+    background-color: #27426d;
+    color: white;
+}
+tbody tr:nth-child(odd){
+    background-color: #4f8cef;
+    color: white;
+}
+tbody tr:nth-child(even){
+    background-color: #6facff;
+    color: white;
+}
