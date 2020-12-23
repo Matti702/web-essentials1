@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+}
+
+body {
+    background-color: #343a40;
+}
+
+table tr:first-of-type, tr:nth-child(3){
+    background-color: orange;
+}
+
+
+.container{
+    width: 70%;
+    margin: auto;
+    padding: 40px;
+}
+
+.Algemeen{
+    display: flex;
+}
+
+.Links{
+    background-color: gray;
+    padding: 20px;
+    width: 30%;
+}
+
+.Rechts{
+    background-color: white;
+    width: 70%;
+}
+
+.Boven{
+    background-color: lightgray;
+    height: 220px;
+}
+
+
+.Skills-Talen{
+    padding: 20px 0;
+    color: white;
+}
+
+.contact{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.Foto{
+    width: 156px;
+    height: 217px;
+    margin: 20px auto;
+}
+.Foto:hover{
+    box-shadow: 0 4px 8px 0 black, 0 6px 20px 0 black;
+}
+.Foto:active{
+    border: black solid 5px;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.contact .label{
+    width: 50px;
+    color: orange;
+    font-weight: 900;
+}
+
+.contact .value{
+    color: white;
+}
+
+.contact i{
+    font-size: 18px;
+}
+
+.Skills-Talen .Onderdeel{
+    font-size: 20px;
+    font-weight: 900;
+    color: #211f1f;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.Skill{
+    padding: 5px 0;
+}
+
+.Skill-naam{
+    padding-bottom: 10px;
+}
+
+.Skill-meter-balk{
+    height: 16px;
+    background-color: white;
+}
+
+.Skill-meter {
+    height: 16px;
+    background-color: orange;
+}
+
+.w80{
+    width: 80%;
+}
+
+.w70{
+    width: 70%
+}
+.w60{
+    width: 60%;
+}
+
+.w50{
+    width: 50%;
+}
+
+.w55{
+    width: 55%;
+}
+
+.w45{
+    width: 45%;
+}
+
+.Taal{
+    padding: 10px 0;
+}
+
+.Taal-Beoordeling{
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.Orange-Vierkant{
+    height: 16px;
+    width: 16px;
+    background-color: orange;
+}
+
+.Wit-Vierkant{
+    height: 16px;
+    width: 16px;
+    background-color: white;
+}
+
+
+.Naam-functie{
+    position: relative;
+    top: 45%;
+    padding: 20px;
+}
+
+.Naam-functie .Naam{
+    font-size: 36px;
+    color: orange;
+    padding-bottom: 10px;
+}
+
+.Naam-functie .Functie{
+    font-size: 28px;
+    color: #fff
+}
+
+.Prestaties{
+    padding: 20px;
+}
+
+.section{
+    padding: 10px 0;
+}
+
+.Titel{
+    font-size: 20px;
+    color: orange;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+
+.Prestaties .Ondertitel1{
+    font-weight: 900;
+}
+
+.Prestaties p{
+    padding-bottom: 10px;
+}
+
+.Beschrijving{
+    font-size: 16px;
+}
+
+.Ervaring ul{
+    list-style-type: none;
+}
+
+.Ervaring ul li{
+    padding-bottom: 20px;
+    font-weight: 900;
+}
+
+.Prestaties .Ondertitel2{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.Project{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.Tussenlijn{
+    position: relative;
+}
+
+.Lijn{
+    position: absolute;
+    width: 2px;
+    height: 100%;
+    background-color: orange;
+}
+
+.Project .Periode{
+    text-align: center;
+}
+
+.Project .Uileg{
+    width: 80%;
+}
+
+.Project-titel{
+    font-weight: 900;
+}
+
+
+.Details{
+    font-size: 16px;
+}
+.Footer{
+    background-color: orange;
+    font-size: 24px;
+    font-family: Roboto;
+    text-align: center;
+}
+
+
+.NaarBoven{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Tablets */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+    nav {
+        width: 45%;
+    }
+
+    .site-info {
+        top: 20%;
+    }
+
+    .site-info .title {
+        font-size: 36px;
+    }
+
+    .site-info .sub-title {
+        font-size: 22px;
+        padding-top: 10px;
+    }
+
+    .about .content .title {
+        font-size: 18px;
+    }
+
+    .about .content .desc {
+        padding: 1px 5px 10px 2px;
+        font-size: 11px;
+    }
+
+    .services .content .title {
+        font-size: 18px;
+    }
+
+    .services .content .desc {
+        font-size: 11px;
+    }
+
+    .social i,
+    .copyright {
+        font-size: 12px;
+    }
+
+}
+
+/* Telefoons */
+
+@media only screen and (min-width:315px) and (max-width: 600px) {
+
+    nav {
+        width: 50%;
+    }
+
+    nav a {
+        font-size: 11px;
+    }
+
+    .banner {
+        background-size: cover;
+        height: 250px;
+    }
+
+    .site-info {
+        top: 20%;
+    }
+
+    .site-info .title {
+        font-size: 24px;
+        letter-spacing: 10px;
+    }
+
+    .site-info .sub-title {
+        font-size: 16px;
+        padding-top: 10px;
+        letter-spacing: 4px;
+    }
+
+    .about .content{
+        width: 100%;
+    }
+
+    .about .content .title {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .about .content .desc {
+        padding: 1px 5px 10px 2px;
+        font-size: 10px;
+    }
+
+    .about .icon {
+        display: none;
+    }
+
+
+    .services-image {
+        display: none;
+    }
+
+    .services{
+        height: auto;
+    }
+
+    .services .content {
+        width: 100%;
+    }
+
+    .services .content .title {
+        font-size: 15px;
+        letter-spacing: 1px;
+    }
+
+    .services .content .desc {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .social,
+    .copyright{
+        font-size: 10px;
+    }
+
+
+}
